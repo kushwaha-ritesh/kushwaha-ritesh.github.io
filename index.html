@@ -1,43 +1,348 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ritesh Kushwaha | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Kushwaha</title>
+    <meta name="description" content="I'm Ritesh kushwaha currently pursuing Bachelors of Data Science & Applications in IIT Madras. I like programming and design, this is my portfolio.">
+    <meta property="og:title" content="Ritesh Kushwaha">
+    <meta property="og:description" content="I'm Ritesh kushwaha currently pursuing Bachelors of Data Science & Applications in IIT Madras. I like programming and design, this is my portfolio.">
+    <meta name="image" property="og:image" content="https://kushwaha-ritesh.github.io/dp.png">
+    <meta property="og:url" content="https://kushwaha-ritesh.github.io">
+    <meta property="og:site_name" content="Ritesh Kushwaha">
+    <meta name="author" content="Ritesh Kushwaha">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">
+
+    <meta name="twitter:title" content="Ritesh Kushwaha">
+    <meta name="twitter:description" content="I'm Ritesh kushwaha currently pursuing Bachelors of Data Science & Applications in IIT Madras. I like programming and design, this is my portfolio.">
+    <meta name="twitter:image" content="https://kushwaha-ritesh.github.io/dp.png">
+    <meta name="twitter:site" content="@riteshkushwahax">
+    <meta name="twitter:creator" content="@riteshkushwahax">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;900&amp;display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Ritesh Kushwaha</h1>
-      <p>Web Developer | Data Enthusiast | Lifelong Learner</p>
-    </div>
-  </header>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Hi! I'm Ritesh Kushwaha, a passionate web developer with a love for creating intuitive and dynamic user experiences. Currently exploring the world of data science and machine learning.</p>
+<body class="bg-black">
+    <div class="container-fluid bg-black" style="overflow: hidden; position: relative;">
+        <div class="row" style="height: 70vh;position:relative;overflow: hidden;z-index: 999;">
+            <div class="col d-flex align-items-center justify-content-center">
+                <div>
+                    <p class="fs-4 mb-0 topHi text-white" style="font-weight: 400; opacity: 1;">Hi, I'm</p>
+                    <h1 class="mb-0 clipped fw-bold ml16" style="opacity: 1; transform: translateY(0px);">Ritesh Kushwaha</h1>
+                    <p class="fs-4 mb-0 float-end text-muted fw-light lineHeading" style="width: 50px; height: 7px; background: url(&quot;./bg.png&quot;) 0% 0% / cover no-repeat;">
+                    </p>
+                    <br>
+                    <div class="h-stack topLinks" style="margin-left: -10px; opacity: 1;">
+                        <a href="#projects" class="btn btn-outline-light" style="border: 0px">Projects</a>
+                        <a href="#about" class="btn btn-outline-light" style="border: 0px">About</a>
+                        <a href="#software" class="btn btn-outline-light" style="border: 0px">Software</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- make black rectangle of width 500px and height 500px -->
+        <div class="rellax glass" data-rellax-speed="-6" style="height: 80vw; width: 80vw; position: absolute; top: 40%; right: 5%; transform: translate3d(0px, 0px, 0px) translate3d(0px, 0px, 0px) rotate(-25deg); border-radius: 100%;">
+        </div>
+        <div class="rellax glass" data-rellax-speed="5" style="height: 60vw; width: 60vw; position: absolute; top: 10%; left: 10%; transform: translate3d(0px, 0px, 0px) translate3d(0px, 0px, 0px) rotate(45deg); border-radius: 15px;">
+        </div>
     </div>
-  </section>
-
-  <section id="contact">
     <div class="container">
-      <h2>Contact Me</h2>
-      <ul>
-        <li><a href="mailto:your.email@example.com">Email</a></li>
-        <li><a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></li>
-        <li><a href="https://github.com/yourusername">GitHub</a></li>
-      </ul>
-    </div>
-  </section>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h1 class="fw-light text-white">Projects</h1>
+            </div>
+        </div>
+        <div class="row my-5" id="projects">
+            <!-- Insert Project Here -->
+          <h1 class="mb-0 clipped fw-bold ml16" style="opacity: 1; transform: translateY(0px); text-align: center;">Coming Soon</h1>  
+        </div>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Ritesh Kushwaha. All rights reserved.</p>
-    </div>
-  </footer>
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="fw-light text-white">Software/Tools</h1>
+            </div>
+        </div>
 
-  <script src="script.js"></script>
-</body>
-</html>
+        <div class="row my-5" id="software">
+            <div class="col">
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/html-5--v1.png"> HTML
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/css3.png"> CSS
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/javascript--v1.png"> JS
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/python--v1.png"> Python
+                </div>
+                <!-- <div class="btn btn-outline text-white" role="alert">
+                    Flask
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="sklearn.png"> SKLearn
+                </div> -->
+                <div class="btn btn-outline text-white" role="alert">
+                    Numpy
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    Pandas
+                </div>
+                <!-- <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/fluency/30/000000/android-os.png"> Android (Java)
+                </div> -->
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/sql.png" style="filter: contrast(0) brightness(5);"> SQL
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/firebase.png"> Firebase
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/cloud-firestore.png"> Firebase Cloud Firestore
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="electron.png"> Electron
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/microsoft-excel-2019--v1.png"> Microsoft Excel
+                </div>
+                <!-- <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/redis.png"> Redis
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/mongodb.png"> MongoDB
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/nodejs.png"> Node JS
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/000000/external-vuejs-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-logo-shadow-tal-revivo.png">
+                    Vue JS
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    Express
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/ffmpeg.png"> FFMPEG
+                </div> -->
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/materialize.png" height="20"> Materialize CSS
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/bootstrap.png"> Bootstrap
+                </div>
+                <!-- <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/adobe-illustrator--v1.png"> Adobe Illustrator
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/adobe-premiere-pro--v1.png"> Adobe Premiere Pro
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/adobe-after-effects--v1.png"> Adobe After Effects
+                </div>
+                <div class="btn btn-outline text-white" role="alert">
+                    <img src="https://img.icons8.com/color/30/000000/adobe-photoshop--v1.png"> Adobe Photoshop
+                </div> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="fw-light text-white">About</h1>
+            </div>
+        </div>
+        <div class="row my-5" id="about">
+            <div class="col">
+                <div class="card mb-3 bg-dark text-white">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="dp.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">Hi! I'm Ritesh, currently pursuing my Bachelor's Degree in
+                                    Data Science from IIT Madras. I am learning Data Science, AI and Programming (in
+                                    several languages ranging from C++ to JavaScript).I like to create projects that solve
+                                    real world problems.
+                                    <br><br>
+                                    I take up freelance projects here and there for Programming. If you are looking for a
+                                    programmer or Data Analyst, or are a student or would want to
+                                    discuss about Data Science or Programming, feel free to contact me through one of the
+                                    links below !
+                                </p>
+
+                                <a href="https://rupee.locker" class="btn me-2 my-2" style="background: #21d19f;" target="_blank">Rupee Locker</a>
+                                <!-- email me -->
+                                <a href="mailto:kushwaharitesh884@gmail.com" class="btn btn-outline-light me-2 my-2">Email Me</a>
+                                <a href="https://www.linkedin.com/in/ritesh--kushwaha/" class="btn btn-primary my-2 me-2" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                                    LinkedIn</a>
+                                <a href="https://www.hackerrank.com/kushwaharitesh" class="btn btn-success my-2 me-2" target="_blank"><i class="fa-brands fa-hackerrank"></i>
+                                    HackerRank</a>
+                                <a href="https://www.codechef.com/users/aka_ritesh" class="btn btn-light my-2 me-2" target="_blank"><img src="https://img.icons8.com/ios/20/000000/codechef.png">
+                                    CodeChef</a>
+                                <a href="https://www.instagram.com/quantum.itself/" class="btn btn-warning my-2 me-2" target="_blank"><i class="fa-brands fa-instagram"></i>
+                                    Instagram</a>
+                                <!-- <a href="paste link here" class="btn btn-danger my-2 me-2" target="_blank"><i class="fa-brands fa-youtube"></i>
+                                    YouTube</a>
+                                <a href=" paste link here" class="btn btn-primary my-2 me-2" target="_blank"><i class="fa-brands fa-facebook"></i>
+                                    Facebook</a> -->
+                                <a href="https://github.com/kushwaha-ritesh" class="btn btn-outline-light my-2 me-2" target="_blank"><i class="fa-brands fa-github"></i>
+                                    GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+        .glass {
+            background: rgba(173, 8, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .topLinks {
+            opacity: 0;
+        }
+
+        .ml16 {
+            text-transform: uppercase;
+            overflow: hidden;
+            opacity: 0;
+        }
+
+        .clipped {
+            background: url("./bg.png");
+            background-size: cover;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .rotate {
+            animation: rotate 10s infinite linear;
+            transition: all .5s ease-out;
+        }
+
+        .rotate:hover {
+            filter: hue-rotate(-30deg);
+        }
+
+        .rotateReverse {
+            animation: rotateReverse 20s infinite linear;
+            transition: all .5s ease-out;
+        }
+
+        .rotateReverse:hover {
+            filter: hue-rotate(60deg);
+        }
+
+        /* rotate animation */
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotateReverse {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+
+        /* media query screen width 700px */
+        @media screen and (max-width: 800px) {
+
+            .rotate,
+            .rotateReverse {
+                font-size: 80vw !important;
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+
+            .rotate,
+            .rotateReverse {
+                font-size: 85vw !important;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+
+            .rotate,
+            .rotateReverse {
+                font-size: 100vw !important;
+            }
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+        var textWrapper = document.querySelector('.ml16');
+
+        anime.timeline()
+            .add({
+                targets: '.topHi',
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 400,
+                delay: 400
+            })
+            .add({
+                targets: '.ml16',
+                opacity: [0, 1],
+                translateY: [50, 0],
+                easing: "easeOutExpo",
+                duration: 700,
+                delay: 500
+            }).add({
+                targets: '.lineHeading',
+                width: [0, 50],
+                easing: "easeOutExpo",
+                duration: 700,
+                delay: 500
+            }).add({
+                targets: '.topLinks',
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 700,
+                delay: 500
+            })
+    </script>
+
+
+
+
+</body></html>
